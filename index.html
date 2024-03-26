@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewspot" content="width=device-width, initial-scale=1">
-        <title>Brothers</title>
+        <meta name="viewspot" content="width=device-width, initial-scale=1.0"> 
+        <title>Brothers Chappal Maker</title>
         <!-- <link rel="stylesheet" href="index.css"> -->
         <style>
             body{
@@ -128,7 +128,7 @@
 }
 .price-tag{
     font-size: 25px;
-    color: black;
+    color: rgb(14, 0, 54);
 }
 .price1{
     font-size: 20px;
@@ -139,7 +139,36 @@
     margin-left: 40px;
     margin-top: 20px;
 
+
 }
+.shop-info{
+    color: rgb(248, 0, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 1s;
+
+    text-decoration: none;
+
+}
+.shop-info:hover{
+    font-size: 50px;
+    color: blueviolet;
+    margin: 30px;
+    text-decoration: none;
+    
+    
+    
+}
+.buttons{
+    display: inline-block;
+    margin: 40px;
+
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1100px){
     .title2{
         font-size: 35px;
@@ -176,14 +205,25 @@
         justify-content: center;
         color: rgb(17, 14, 14);
     }
-    .prices{
+    .price1{
         font-size: 35px;
+        font-weight: bold;
+        color: black;
+    }
+    .shop-info:hover{
+        font-size: 30px;
     }
     
 }
         </style>
     </head>
     <body>
+        <div class="buttons">
+            <a href="shop info.html" class="shop-info">Shop Info</a>
+        </div>
+        <div class="buttons">
+            <a href="my info.html" class="shop-info">My info</a>
+        </div>
         <div class="title">
             <h1 class="title2"><strong>Brothers</strong> Chappal Maker</h1>
             
@@ -248,7 +288,7 @@
             <div class="row2">
                 <div class="smart-zalmi-price">
                     <img src="https://laylooo.pk/cdn/shop/products/GoldenPeshawari4_2048x2048.jpg?v=1693412761" alt="" class="chappal-image">
-                    <h2 class="border-text">Smart Zalmi Chappal</h2>
+                    <h2 class="border-text">Smart Zalmi</h2>
                     <h3 class="price-tag">Price</h3>
                     <p class="price1">Rs- 3000</p>
                 </div>
@@ -268,14 +308,17 @@
             <div class="row2">
                 <div class="golty-price">
                     <img src="https://www.gracefitters.com/cdn/shop/files/3_2ebe6d8f-18da-4075-bb95-884573f2476b.png?v=1708612445&width=1946" alt="" class="chappal-image">
-                    <h2 class="border-text">Golty Chappal</h2>
+                    <h2 class="border-text">Gol T</h2>
                     <h3 class="price-tag">Price</h3>
                     <p class="price1">Rs- 2200</p>
                 </div>
-            </div>
+            </div><br><br><br><br>
 
 
 
 
     </body>
+    <footer>
+        <p class="copyright">&copy;All rights are reserved</p>
+    </footer>
 </html>

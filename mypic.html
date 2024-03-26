@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>untitled</title>
+        <style>
+            .my-name{
+            font-size: 40px;
+            font-family: cursive;
+            color: brown;
+        }
+        .border1image{
+            width: 550px;
+            height: 350px;
+            border-radius: 100px;
+            transition: 2s;
+            box-shadow: 0 0 50px #333;
+        }
+        .border1image:hover{
+            width: 400px;
+            height: 400px;
+        }
+        .border{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .social{
+            display: inline-flex;
+        }
+        .buttons{
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            transition: 1s;
+            padding: 4px;
+        }
+        .buttons:hover{
+            width: 150px;
+            height:150px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .my-field{
+            width: 50%;
+            height: auto;
+            background-color: rgba(243, 221, 193, 0.589);
+            text-align: center;
+            box-shadow: 0 0 30px #333;
+            border-radius: 10px;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            
+
+        }
+        .data{
+            width: 400px;
+            height: fit-content;
+            background-color: rgb(232, 231, 231);
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+        }
+        #inline{
+            display: inline-block;
+            margin-left: 10px;
+            
+        }
+        .data-inside{
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+        }
+        strong{
+            color: blue;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover .email{
+            box-shadow: 0 5px red;
+            border-radius: 10px ;
+        }
+        .owner-msg{
+            font-size: 39px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .owner{
+            font-size: 60px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .text{
+            font-size: 30px;
+            color: rgb(57, 100, 100);
+        }
+        @media only screen and (max-width: 1100px){
+            .buttons:hover{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="border">
+        <img src="https://scontent.fpew3-1.fna.fbcdn.net/v/t39.30808-6/377760745_122098793990057527_8462535672860582045_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEuacecO0YgTpXKdfSi0pbZ1cWy29GXVB_VxbLb0ZdUH0wpfLTuRBPajaejLHxrLTtAM_r4At-UgsfJMexW7d9C&_nc_ohc=NTcTZ7zc0KcAX_wxSFr&_nc_ht=scontent.fpew3-1.fna&oh=00_AfDnH4hMZoOzX9kc0yGnKq55aEERtAqYtB583rkLK_UHjw&oe=6608399A" align="center" alt="" class="border1image">
+        <h1 class="my-name">Brothers Chappal Makers</h1>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100092577473065&mibextid=kFxxJD" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcpjZNj76WYGXFCt2UJjTdHXKgc-F9iUSdSMQmnE2BBmc5xhR9SDpW1cLGor0RHCJX1k&usqp=CAU" alt="" class="buttons"></a>
+            <a href="https://www.tiktok.com/@waqas.jan001?_t=8kyhse9nQqA&_r=1" target="_blank"><img src="https://img.freepik.com/premium-vector/tik-tok-logo_578229-290.jpg" alt="" class="buttons"></a>
+            <a href="https://wa.me/923148283148/?text=I%20am%20interested%20in%20your%20Product!%20Can%20we%20talk" target="_blank"><img src="https://www.shareicon.net/data/2015/08/28/92444_whatsapp_512x512.png" alt="" class="buttons"></a>
+            
+        </div><br><br>
+        <div class="my-field">
+            <h1 class="owner-msg"><strong class="owner">Owner</strong> Message:</h1><br>
+            <h1 class="text">Thank you very much for visiting our website. <br>
+                             We have high quality slippers available. and <br>
+                             Our price is also very less than the market price <br>
+                             We are known for our best quality and name <br>
+                             If you want any type of Chappals then Please <br> 
+                             Contact us on our WhatsApp Number or our <br>
+                             Phone Number. Thanks for visiting our Website.</h1>
+        
+        </div><br><br>
+        
+        <div class="data">
+            <div class="mobile" id="inline">
+                <img src="https://t4.ftcdn.net/jpg/04/63/63/59/360_F_463635935_IweuYhCqZRtHp3SLguQL8svOVroVXvvZ.jpg" alt="" class="logo">
+                <div class="data-inside" id="inline">
+                    <p>Phone</p>
+                    <strong>03148283148</strong>
+                </div><hr>
+            </div>
+
+
+            <div class="mobile" id="inline">
+                <img src="https://img.freepik.com/free-vector/open-email-envelope_1020-530.jpg?size=338&ext=jpg&ga=GA1.1.2082370165.1711152000&semt=ais" alt="" class="logo">
+                <div class="data-inside" id="inline">
+                    <p>Email</p>
+                    <a href="mailto:waqasjan131415@gmail.com"><strong class="email">waqasjan131415@gmail.com</strong></a>
+                </div><hr>
+            </div>
+
+
+            <div class="mobile" id="inline">
+                <img src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png" alt="" class="logo">
+                <div class="data-inside" id="inline">
+                    <p>Address:</p>
+                    <strong>Prang Mian Kale Charsadda</strong>
+                </div><hr>
+            </div>
+
+
+            
+            
+        </div>
+    </div>
+    <br><br>
+    </body>
+</html>
