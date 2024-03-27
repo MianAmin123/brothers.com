@@ -33,6 +33,7 @@
     border-radius: 20px;
     width: 150px;
     height: 150px;
+    background-color: darkcyan;
 }
 .icons-inline{
     display: inline-block;
@@ -185,6 +186,32 @@
     font-weight: bold;
     
 }
+button{
+    background: none;
+  color: #fff;
+  font-family:'Courier New', Courier, monospace;
+  border: 1px solid #fff;
+  padding: 1em 2em;
+  border-radius: 7px;
+  width: 150px;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all linear;
+  text-decoration: none;
+
+
+    
+}
+button:hover{
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+}
+#myInfo{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 @media only screen and (max-width: 1100px){
@@ -231,16 +258,20 @@
     .shop-info:hover{
         font-size: 30px;
     }
+    button{
+        background-color: darkcyan;
+        font-size: 20px;
+    }
     
 }
         </style>
     </head>
     <body>
         <div class="buttons">
-            <a href="shop info.html" class="shop-info">Shop Info</a>
+            <a href="shop info.html" ><button class="button">Shop Info</button></a>
         </div>
         <div class="buttons">
-            <a href="mypic.html" class="shop-info">My info</a>
+            <a href="mypic.html"><button class="button">My info</button></a>
         </div>
         <div class="title">
             <h1 class="title2"><strong>Brothers</strong> Chappal Maker</h1>
